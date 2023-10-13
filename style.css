@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #151515;
+}
+.container {
+    background-color: #000000;
+    color: #fff;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 1rem;
+}
+header ,#reach-us{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+.bi-whatsapp,.bi-envelope,.bi-telephone{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 2px 7px;
+}
+#reach-us a{
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+#logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+nav ul,#reach-us li {
+    display: flex;
+    list-style: none;
+}
+nav ul li a ,#menu a{
+    text-decoration: none;
+    padding: 2px 10px;
+    color: #fff;
+}
+#menu{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+}
+#menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#landing-page {
+    text-align: center;
+    background-image:url('./images/universe.jpg');
+    padding: 4rem 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+#landing-page2{
+    text-align: center;
+    padding: 4rem 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-image:url("../images/workstation.jpg");
+}
+#landing-page h1 {
+    font-size: 2.5rem;
+}
+#landing-page p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+#hireBtn {
+    background-color: coral;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.card {
+    background: rgba(2, 2, 28, 0.5);
+    color: #fff;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+.card h2, .about h2, .form h2, footer h4 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+.card button, .form button {
+    margin: 1rem 0;
+    background-color: coral;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.card .service,.step{
+    width:90vw;
+    margin: 0 auto;
+    box-shadow: 3px 5px 5px rgba(0, 0,0, 0.7);
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+}
+.service {
+    text-align: center;
+}
+
+#readMoreBtn, #hireBtn, #learnMoreBtn, #sendBtn {
+    background-color: coral;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#hireBtn:hover, #readMoreBtn:hover, #learnMoreBtn:hover, #sendBtn:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.service h3, .service p {
+    margin: 1rem 0;
+}
+.steps h2 {
+    padding-top: 3rem;
+}
+.step {
+    margin: 1rem 0;
+}
+.step h3 {
+   text-align: center;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+.about h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+.about p {
+    text-align: center;
+    font-size: 1.2rem;
+    color:black;
+}
+.step p{
+    text-align: center;
+}
+.about button {
+    background-color: coral;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.form h2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+.form .contact-info {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+.form textarea {
+    resize: none;
+    border-radius: 5px;
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+.form input {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    width: 100%;
+}
+footer {
+    background: #060A61;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 1rem 0;
+}
+footer ul li {
+    margin: 0 10px;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+footer .bi-whatsapp {
+    font-size: 1.5rem;
+}
+footer .material-symbols-outlined {
+    font-size: 1.5rem;
+}
