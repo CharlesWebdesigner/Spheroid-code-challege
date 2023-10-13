@@ -73,7 +73,7 @@ nav ul li a ,#menu a{
     background-size: cover;
     background-position: center;
     color: #fff;
-    background-image:url("../images/workstation.jpg");
+    background-image:url("./images/workstation.jpg");
 }
 #landing-page h1 {
     font-size: 2.5rem;
